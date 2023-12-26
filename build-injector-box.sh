@@ -2,7 +2,7 @@
 mkdir docker_buiding || true
 # update injector-box
 if [ ! -d docker_buiding/injector-box ]; then
-    git clone https://github.com/ChisBread/injector-box docker_buiding/injector-box
+    git clone https://github.com/yuanwangz/injector-box docker_buiding/injector-box
 else
     cd docker_buiding/injector-box
     git pull
